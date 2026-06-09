@@ -1,0 +1,13 @@
+sources:
+  - name: bronze
+    database: AIRBNB
+    schema: bronze
+    config:
+      enabled: true
+    tables:
+      - name: raw_hosts  # enabled
+        description: This is the list of hosts
+      - name: raw_reviews
+        description: This is the list of reviews
+      - name: raw_listings
+        description: This is the list of listings
